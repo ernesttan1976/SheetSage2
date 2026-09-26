@@ -1,0 +1,6 @@
+services:
+  song-splitter:
+    build: .
+    ports:
+      - "7860:7860"
+    restart: unless-stopped
